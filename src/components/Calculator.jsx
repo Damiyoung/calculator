@@ -25,6 +25,7 @@ const Calculator = () => {
 
     const handleAnswer =() => {
       try{
+        // eslint-disable-next-line
           setNumber(eval(number).toString())
           setHasError(true)
       } catch(error){
